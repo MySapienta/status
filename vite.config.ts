@@ -34,6 +34,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), contentSecurityPolicy()],
   test: {
     environment: 'node',
+    env: { TZ: 'UTC' },
     include: ['checker/**/*.test.ts', 'src/**/*.test.{ts,tsx}'],
   },
 })

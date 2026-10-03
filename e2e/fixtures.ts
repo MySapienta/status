@@ -7,7 +7,7 @@ const CHECKS_PER_DAY = 288
 const DAYS_OF_HISTORY = 90
 
 const SERVICES = [
-  { id: 'admin', name: 'School admin' },
+  { id: 'admin', name: 'School staff' },
   { id: 'guardian', name: 'Parent portal' },
   { id: 'portal', name: 'Student portal' },
   { id: 'apply', name: 'Admissions' },

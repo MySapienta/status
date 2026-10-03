@@ -47,8 +47,11 @@ export function App({ incidents }: AppProps) {
   return (
     <div className="min-h-screen">
       <header className="border-b border-line bg-card">
-        <div className="mx-auto flex max-w-3xl items-baseline justify-between px-3 py-4 lg:px-4">
-          <p className="font-serif text-lg font-semibold">MySapienta</p>
+        <div className="mx-auto flex max-w-3xl items-center justify-between px-3 py-4 lg:px-4">
+          <p className="flex items-center gap-2 font-serif text-lg font-semibold">
+            <img src="./logo.png" alt="" width={28} height={28} className="rounded-md" />
+            MySapienta
+          </p>
           <h1 className="text-sm text-muted">System status</h1>
         </div>
       </header>

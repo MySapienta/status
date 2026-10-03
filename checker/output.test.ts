@@ -4,7 +4,7 @@ import type { CheckResult, HistoryFile, Service } from '../shared/types.ts'
 
 const services: Service[] = [
   { id: 'api', name: 'Core system', url: 'https://api.example.test', healthy: 'ok' },
-  { id: 'admin', name: 'School admin', url: 'https://admin.example.test', healthy: 'ok' },
+  { id: 'admin', name: 'School staff', url: 'https://admin.example.test', healthy: 'ok' },
 ]
 const now = new Date('2026-10-03T12:00:00Z')
 const results: CheckResult[] = [
@@ -21,7 +21,7 @@ describe('buildOutput', () => {
       overall: 'outage',
       services: [
         { id: 'api', name: 'Core system', status: 'up', ms: 200 },
-        { id: 'admin', name: 'School admin', status: 'down', ms: 10000 },
+        { id: 'admin', name: 'School staff', status: 'down', ms: 10000 },
       ],
     })
   })
