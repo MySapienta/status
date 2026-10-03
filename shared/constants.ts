@@ -1,0 +1,9 @@
+export const REQUEST_TIMEOUT_MS = 10_000
+export const RETRY_DELAY_MS = 5_000
+export const SLOW_THRESHOLD_MS = 3_000
+export const HISTORY_DAYS = 90
+export const MOBILE_HISTORY_DAYS = 30
+export const STALE_AFTER_MS = 20 * 60 * 1000
+export const REFRESH_INTERVAL_MS = 60_000
+export const DATA_BASE_URL = 'https://raw.githubusercontent.com/MySapienta/status/data'
+export const USER_AGENT = 'MySapientaStatus/1.0 (+https://status.mysapienta.com)'
