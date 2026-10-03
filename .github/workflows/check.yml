@@ -1,0 +1,47 @@
+name: Check services
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-services
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout checker
+        uses: actions/checkout@v4
+
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Run checks
+        run: node checker/run.ts
+        env:
+          DATA_DIR: data
+
+      - name: Commit results
+        working-directory: data
+        run: |
+          git config user.name "status-bot"
+          git config user.email "status-bot@users.noreply.github.com"
+          git add status.json history.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "chore: record checks"
+          git pull -q --rebase
+          git push -q
