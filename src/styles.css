@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@fontsource-variable/parkinsans/index.css";
+@import "@fontsource-variable/plus-jakarta-sans/index.css";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Parkinsans Variable", ui-serif, Georgia, serif;
+
+  --color-page: hsl(217 79% 98%);
+  --color-card: hsl(0 0% 100%);
+  --color-ink: hsl(0 0% 3.9%);
+  --color-muted: hsl(0 0% 40%);
+  --color-line: hsl(0 0% 89.8%);
+  --color-primary: hsl(217 79% 48%);
+
+  --color-up: hsl(145 63% 42%);
+  --color-up-soft: hsl(145 60% 94%);
+  --color-up-strong: hsl(145 70% 22%);
+  --color-slow: hsl(38 92% 50%);
+  --color-slow-soft: hsl(42 95% 92%);
+  --color-slow-strong: hsl(28 80% 28%);
+  --color-down: hsl(0 72% 51%);
+  --color-down-soft: hsl(0 86% 96%);
+  --color-down-strong: hsl(0 70% 32%);
+  --color-empty: hsl(0 0% 86%);
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
