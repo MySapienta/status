@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-18T13:16:05.035Z",
+  "checkedAt": "2026-10-18T13:21:12.836Z",
   "overall": "outage",
   "services": [
     {
       "id": "admin",
       "name": "School staff",
       "status": "down",
-      "ms": 10001
+      "ms": 10000
     },
     {
       "id": "guardian",
@@ -30,7 +30,7 @@
       "id": "website",
       "name": "Website",
       "status": "up",
-      "ms": 531
+      "ms": 822
     },
     {
       "id": "api",
@@ -42,7 +42,7 @@
       "id": "media",
       "name": "Files and photos",
       "status": "up",
-      "ms": 181
+      "ms": 304
     }
   ]
 }
