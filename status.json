@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-18T13:21:12.836Z",
+  "checkedAt": "2026-10-18T13:26:01.797Z",
   "overall": "outage",
   "services": [
     {
@@ -18,31 +18,31 @@
       "id": "portal",
       "name": "Student portal",
       "status": "down",
-      "ms": 10000
+      "ms": 10001
     },
     {
       "id": "apply",
       "name": "Admissions",
       "status": "down",
-      "ms": 10000
+      "ms": 10001
     },
     {
       "id": "website",
       "name": "Website",
       "status": "up",
-      "ms": 822
+      "ms": 710
     },
     {
       "id": "api",
       "name": "Core system",
       "status": "down",
-      "ms": 10000
+      "ms": 10001
     },
     {
       "id": "media",
       "name": "Files and photos",
       "status": "up",
-      "ms": 304
+      "ms": 224
     }
   ]
 }
