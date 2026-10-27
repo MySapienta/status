@@ -1,48 +1,48 @@
 {
-  "checkedAt": "2026-10-27T14:26:13.220Z",
+  "checkedAt": "2026-10-27T14:31:17.708Z",
   "overall": "operational",
   "services": [
     {
       "id": "admin",
       "name": "School staff",
       "status": "up",
-      "ms": 656
+      "ms": 568
     },
     {
       "id": "guardian",
       "name": "Parent portal",
       "status": "up",
-      "ms": 611
+      "ms": 458
     },
     {
       "id": "portal",
       "name": "Student portal",
       "status": "up",
-      "ms": 690
+      "ms": 504
     },
     {
       "id": "apply",
       "name": "Admissions",
       "status": "up",
-      "ms": 731
+      "ms": 624
     },
     {
       "id": "website",
       "name": "Website",
       "status": "up",
-      "ms": 1756
+      "ms": 1382
     },
     {
       "id": "api",
       "name": "Core system",
       "status": "up",
-      "ms": 666
+      "ms": 597
     },
     {
       "id": "media",
       "name": "Files and photos",
       "status": "up",
-      "ms": 375
+      "ms": 291
     }
   ]
 }
