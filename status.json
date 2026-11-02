@@ -1,60 +1,60 @@
 {
-  "checkedAt": "2026-11-02T22:06:07.012Z",
-  "overall": "operational",
+  "checkedAt": "2026-11-02T22:11:16.912Z",
+  "overall": "degraded",
   "services": [
     {
       "id": "admin",
       "name": "School staff",
       "status": "up",
-      "ms": 943
+      "ms": 468
     },
     {
       "id": "guardian",
       "name": "Parent portal",
       "status": "up",
-      "ms": 863
+      "ms": 441
     },
     {
       "id": "portal",
       "name": "Student portal",
       "status": "up",
-      "ms": 859
+      "ms": 423
     },
     {
       "id": "apply",
       "name": "Admissions",
       "status": "up",
-      "ms": 991
+      "ms": 651
     },
     {
       "id": "quiz",
       "name": "Quizzes",
       "status": "up",
-      "ms": 900
+      "ms": 548
     },
     {
       "id": "polling",
       "name": "Voting booth",
       "status": "up",
-      "ms": 911
+      "ms": 591
     },
     {
       "id": "website",
       "name": "Website",
-      "status": "up",
-      "ms": 2383
+      "status": "slow",
+      "ms": 8585
     },
     {
       "id": "api",
       "name": "Core system",
       "status": "up",
-      "ms": 878
+      "ms": 632
     },
     {
       "id": "media",
       "name": "Files and photos",
       "status": "up",
-      "ms": 239
+      "ms": 322
     }
   ]
 }
