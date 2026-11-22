@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T10:40:58.176Z",
+  "checkedAt": "2026-11-22T10:45:57.798Z",
   "overall": "operational",
   "services": [
     {
@@ -12,49 +12,49 @@
       "id": "guardian",
       "name": "Parent portal",
       "status": "up",
-      "ms": 417
+      "ms": 409
     },
     {
       "id": "portal",
       "name": "Student portal",
       "status": "up",
-      "ms": 423
+      "ms": 427
     },
     {
       "id": "apply",
       "name": "Admissions",
       "status": "up",
-      "ms": 570
+      "ms": 498
     },
     {
       "id": "quiz",
       "name": "Quizzes",
       "status": "up",
-      "ms": 486
+      "ms": 422
     },
     {
       "id": "polling",
       "name": "Voting booth",
       "status": "up",
-      "ms": 513
+      "ms": 472
     },
     {
       "id": "website",
       "name": "Website",
       "status": "up",
-      "ms": 740
+      "ms": 626
     },
     {
       "id": "api",
       "name": "Core system",
       "status": "up",
-      "ms": 528
+      "ms": 478
     },
     {
       "id": "media",
       "name": "Files and photos",
       "status": "up",
-      "ms": 240
+      "ms": 212
     }
   ]
 }
